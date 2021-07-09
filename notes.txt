@@ -1,0 +1,25 @@
+integer: -32768 s.d. 32767
+float: 10^-38 s.d 10^38
+Beberapa varian dari bilangan bulat adalah short, long 
+sedangkan varian bilangan riil adalah double.
+
+Dengan mempunyai CPU (Central Processing Unit) yang terdiri dari ALU (Arithmetic and Logical Unit), komputer dapat melakukan perhitungan aritmetika (perhitungan kali, bagi, tambah, kurang), operasi logika (aljabar boolean), atau perbandingan (sama, tidak sama, lebih besar, lebih kecil).
+
+False adalah nilai 0 dalam bahasa C, sedangkan bukan 0 adalah True.
+
+dua bagian yang “disjoint”, yaitu bagian yang memenuhi syarat, dan yang tidak memenuhi syarat
+
+Penulisan tanpa "else" akan mengakibatkan evaluasi ulang yang tidak mengeliminasi kasus yang sudah ditangani.
+
+Pada saat nilai i=3 maka ekspresi i < 3 akan menghasilkan FALSE (salah), loop berhenti. ada kemungkinan bahwa deretan instruksi tidak pernah dikerjakan
+Dengan demikian, ada kemungkinan bahwa deretan instruksi tidak pernah dikerjakan, yaitu jika pada evaluasi pertama kali, hasil evaluasi kondisi pengulangan bernilai salah (FALSE).
+Dengan demikian, dapat disimpulkan bahwa deretan instruksi dalam badan loop pasti dikerjakan minimal satu kali.
+
+fungsi int rand(void) mengirimkan bilangan pseudo-random dengan rentang nilai 0 s.d RAND_MAX (32767)
+
+Karena bahasa C hanya mengenal fungsi sebagai bentuk sintaktikal, prosedur dalam bahasa C diimplementasi sebagai fungsi, dengan type kembalian void. 
+
+Perbedaan antara fungsi dengan prosedur secara konseptual adalah bahwa parameter prosedur dapat diubah nilainya. 
+
+membuat konstanta: const float pi = 3.1415;
+ingat ketika input dari keyboard: scanf ("%f", &r);
