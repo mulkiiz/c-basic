@@ -12,7 +12,7 @@ int main ()
   /* untuk index tabel i..10 */
      max = i;
      for (k= i+1 ;k< 10; k++)  {
-        if (Tab[k]> Tab[max]) {
+        if (Tab[k]> Tab[max]) { //ubah tanda ini utk urut besar
            max=k;
         }
      } 
